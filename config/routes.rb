@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   devise_for :users, :controllers => { :registrations => "users/registrations" }
   resources :user_stocks, except: [:show, :edit, :update]
+  resources :users, only: [:show]
+  resources :followerships
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.

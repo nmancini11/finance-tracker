@@ -1,0 +1,25 @@
+.no-padding {
+  padding: 0px !important;
+}
+
+.left-padding {
+  padding-left: 15px;
+}
+
+.logout {
+  padding-left: 0px;
+}
+
+.user-name {
+  padding-top: 15px;
+}
+
+.nav.navbar-right li {
+  .btn {
+    color: #fff !important;
+    margin-top: 5%;
+  }
+  &:hover {
+    background: #c9302c;
+  }
+}
